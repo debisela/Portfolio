@@ -1,7 +1,6 @@
 import React from "react";
-import profilePicture from"./Debi Sela.jpg"
 
-const About = () => {
+const Experience = () => {
 
 return (
     <>
