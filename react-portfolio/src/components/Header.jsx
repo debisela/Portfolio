@@ -5,9 +5,12 @@ const Header = () => {
 return (
     <>
   <header className="header">
-    <h1>My Portfolio</h1>
+    <h1>Debi Sela</h1>
     <nav>
       <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#links">Links</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>

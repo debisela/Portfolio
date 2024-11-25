@@ -1,4 +1,4 @@
-#root {
+/* /* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,220 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
 }
+
+.header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.header nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.about, .projects {
+  padding: 2rem;
+  text-align: center;
+}
+
+.project {
+  border: 1px solid #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.footer {
+  text-align: center;
+  padding: 0.2rem;
+  background: #333;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* General Styles */
+html, body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+/* Profile Section */
+#profile {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.profile-picture {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Skills Section */
+#skills {
+  padding: 20px;
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#skills li {
+  margin: 5px 15px;
+  font-size: 1.2rem;
+}
+
+/* Education Section */
+#education {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Links Section */
+#links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+#links a:hover {
+  color: #007bff;
+}
+
+/* Resume Section */
+#resume {
+  text-align: center;
+  margin: 20px;
+}
+
+.button {
+  background-color: #007bff;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Projects Section */
+#projects {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project {
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.project a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form */
+#contact {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input, textarea {
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+}
+
+ 
