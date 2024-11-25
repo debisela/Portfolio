@@ -10,10 +10,13 @@ return (
           <li>JavaScript</li>
           <li>React</li>
           <li>Node.js</li>
-          <li>Express.js</li>
           <li>HTML, CSS</li>
           <li>TypeScript</li>
-          <li>SQL, MongoDB</li>
+          <li>Redux</li>
+          <li>Python</li>
+          <li>SQL</li>
+          <li>Github</li>
+          <li>VS Code</li>
         </ul>
   </section>
   </>

@@ -11,7 +11,6 @@ const ProjectsList = () => {
 
   return(
   <>
-  <a href="#projects">Projects</a>
   <section id="projects" className="projects">
     <h2>My Projects</h2>
     <div className="project-list">
