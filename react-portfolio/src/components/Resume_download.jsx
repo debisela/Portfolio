@@ -5,7 +5,7 @@ const Resume_download= () => {
 return (
     <>
   <section id="resume">
-  <a href="resume.pdf" download className="button">
+  <a href="react-portfolio\public\CV_Debi Sela.docx" download className="button">
           Download Resume
         </a>
   </section>

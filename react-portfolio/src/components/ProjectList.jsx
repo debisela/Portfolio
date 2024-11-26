@@ -2,8 +2,8 @@ import React from "react";
 import Project from "./Project";
 
 const projects = [
-  { title: "Tetris", description: "...", link: "https://tetris.com" },
-  { title: "EasyCart", description: "...", link: "https://shopping.com" },
+  { title: "Tetris", description: "...", link: "https://tetris-onm0.onrender.com/" },
+  { title: "EasyCart", description: "...", link: "https://easycartapp.onrender.com" },
   { title: "TagMaster", description: "...", link: "https://tagmaster.com" },
 ];
 
