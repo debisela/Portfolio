@@ -19,7 +19,6 @@ function App() {
      <About/>
      <Skills/>
      <Education/>
-     <Github_Linkedin_links/>
      <Resume_download/>
      <ProjectsList/>
      <Contact_form/>
