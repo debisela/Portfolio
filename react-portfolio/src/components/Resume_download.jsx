@@ -1,11 +1,12 @@
 import React from "react";
+import CV from "./CV_Debi_Sela.pdf"
 
 const Resume_download= () => {
 
 return (
     <>
   <section id="resume">
-  <a href="react-portfolio\public\CV_Debi Sela.docx" download className="button">
+  <a href={CV} download className="button">
           Download Resume
         </a>
   </section>
