@@ -3,8 +3,6 @@ import Header from './components/Header'
 import About from './components/About'
 import Skills from './components/Skills'
 import Education from './components/Education'
-import Github_Linkedin_links from './components/Github_Linkedin_links'
-import Resume_download from './components/Resume_download'
 import ProjectsList from './components/ProjectList'
 import Contact_form from './components/Contact_form'
 import './App.css'
@@ -19,7 +17,6 @@ function App() {
      <About/>
      <Skills/>
      <Education/>
-     <Resume_download/>
      <ProjectsList/>
      <Contact_form/>
      <footer className="footer">

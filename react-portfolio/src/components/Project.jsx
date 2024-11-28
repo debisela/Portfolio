@@ -1,19 +1,3 @@
-// import React from "react";
-
-// const Project = ({ title, description, link }) => {
-
-// return(
-//     <>
-//   <div className="project">
-//     <h3>{title}</h3>
-//     <p>{description}</p>
-//     <a href={link} target="_blank" rel="noopener noreferrer">View Project</a>
-//   </div>
-//   </>
-// )
-// };
-
-// export default Project;
 import React, { useState } from "react";
 
 const Project = ({
@@ -38,7 +22,7 @@ const Project = ({
     <div className="project-card">
       <h3>{title}</h3>
       <p>{description}</p>
-      <button onClick={toggleExpand}>
+      <button className="project-button" onClick={toggleExpand}>
         {isExpanded ? "Hide Details" : "View Details"}
       </button>
       {isExpanded && (
