@@ -5,6 +5,7 @@ body {
   line-height: 1.6;
   background-color: #f9f9f9;
   color: #333;
+  box-sizing: border-box;
 }
 
 #root {
@@ -320,6 +321,8 @@ body {
   align-items: flex-start;
   width: 100%;
   /* max-width: 400px; */
+  /* border: 1px solid black; */
+  box-sizing: border-box;
 }
 
 .contact-form input,
@@ -329,9 +332,11 @@ body {
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 5px;
+  box-sizing: border-box;
 }
 
 .contact-form button {
+  width: 100%;
   padding: 10px 20px;
   background-color: #e422f2;
   color: white;
